@@ -1,5 +1,5 @@
 workflow "New workflow" {
-  on = "push"
+  on = "pull"
   resolves = ["GitHub Action for npm"]
 }
 
